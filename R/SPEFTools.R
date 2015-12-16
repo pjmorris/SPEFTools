@@ -1,5 +1,7 @@
 # SPEFTools.R main file… for now
 
+projectdate <- function(date) { floor_date(date,"month") + months(1) }
+
 # e.g. spdf<- build_spdf(conn <- src_mysql("phpmyadmin_cvsa",user="spef",password="spefftw2015"))
 
 build_spdf <- function(conn) {
