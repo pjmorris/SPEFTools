@@ -1,8 +1,15 @@
 Package: SPEFTools
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph)
+Title: SPEFTools - Data management, analysis, and reporting for the Security Practices Evaluation Framework
+Version: 0.1.0
+Date: 12/16/2015
+Authors@R: person("Patrick", "Morrison", email = "pjmorris@ncsu.edu", role = c("aut", "cre"))
+Description: SPEFTools supports reading from software development project data rsources, e.g. version control systems, bug trackers, and email archives, to support populating, analyzing, and reporting on the SPEF context factors, practice adherence measures, and outcome measures.
 Depends: R (>= 3.2.2)
 License: What license is it under?
 LazyData: true
+Imports: 
+    dplyr, 
+    lubridate
+Suggests: 
+    ggplot2,
+    knitr
