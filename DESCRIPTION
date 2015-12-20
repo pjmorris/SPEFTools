@@ -12,4 +12,5 @@ Imports:
     lubridate
 Suggests: 
     ggplot2,
-    knitr
+    knitr,
+    testthat
