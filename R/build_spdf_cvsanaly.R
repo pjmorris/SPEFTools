@@ -39,7 +39,6 @@ files <- evo %>% group_by(ProjectMonth) %>% summarise(Value = sum(files),Factor=
 # Building up spdf…
 spdf <- committed
 spdf <- rbind(spdf,churned)
-
 spdf <- rbind(spdf,slocs)
 spdf <- rbind(spdf,locs)
 spdf <- rbind(spdf,files)
